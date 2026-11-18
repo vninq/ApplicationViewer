@@ -118,7 +118,7 @@ namespace ApplicationViewer
 
         static void Main(string[] args)
         {
-            HideWindow.ShowWindow(HideWindow.GetConsoleWindow(), 1);
+            HideWindow.ShowWindow(HideWindow.GetConsoleWindow(), 0);
 
             Console.WriteLine("Starting");
             Program program = new Program();
